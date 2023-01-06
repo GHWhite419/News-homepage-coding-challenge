@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+
+<body>
+  <header>
+    <img src="assets/images/logo.svg" aria-hidden="true">
+    <!-- Navbar code -->
+    <nav>
+      <ul class="navmenu">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </nav>
+    <img class="menu-open" src="assets/images/icon-menu.svg" aria-hidden="true">
+    <div class="sidebar">
+      <img class="menu-close" src="assets/images/icon-menu-close.svg" aria-hidden="true">
+      <ul class="navmenu">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <article class="headline">
+      <picture>
+        <source media="(min-width:800px)" srcset="assets/images/image-web-3-desktop.jpg">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="" style="width:auto;">
+      </picture>
+      <section>
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>
+          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the people. But is it really fulfilling its promise?
+          <button type="button">
+            Read more
+          </button>
+        </p>
+      </section>
+    </article>
+
+    <article class="new">
+      <h2>New</h2>
+      <section>
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </section>
+      <section>
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </section>
+      <section>
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <article>
+      <section>
+        <img src="assets/images/image-retro-pcs.jpg"
+          alt="A small computer monitor sits on a desk amongst other retro hardware.">
+        <div class="text">
+          <h2>01</h2>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </section>
+      <section>
+        <img src="assets/images/image-top-laptops.jpg"
+          alt="Close-up of a laptop keyboard, the keys emitting a red LED glow.">
+        <div class="text">
+          <h2>02</h2>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </section>
+      <section>
+        <img src="assets/images/image-gaming-growth.jpg"
+          alt="A white Playstation controller hovers above an outstretched hand.">
+        <div class="text">
+          <h2>03</h2>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/GHWhite419" target="_blank">Galen White</a>.
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
